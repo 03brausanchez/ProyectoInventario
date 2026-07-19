@@ -145,6 +145,13 @@ public class VentanaInventario {
         }
     }
 
+    @FXML
+    private void handleModificar(){
+        if(control != null){
+            control.agregarProducto();
+        }
+    }
+
     // FXML Event Handlers
 
     @FXML
